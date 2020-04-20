@@ -1,5 +1,9 @@
 #### Drawing p-v graph minimizing g
 
+import numpy as np
+import math
+import matplotlib.pyplot as plt
+
 v = np.arange(0.62, 2.6, 0.001)
 p = np.zeros(len(v))
 t = 0.95
